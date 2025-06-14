@@ -101,7 +101,7 @@ function finalizar() {
     localStorage.removeItem('carrinho');
     carrinho.length = 0;
     atualizar();
-    window.location.href = 'ifood_dados.html';
+    window.location.href = 'index.html';
 }
 
 // Transfere para o outro HTML
