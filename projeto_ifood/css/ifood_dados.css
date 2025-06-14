@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #423530;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    color: #e72f2f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Subtítulos h2 */
+h2 {
+    color: #e72f2f;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Subtítulos h3 */
+h3 {
+    color: #b11b00;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Botões de itens */
+button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #9200005e;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover no botão */
+button:hover {
+    background-color: #bb1010;
+    color: #ffffff;
+}
+
+/* Estilo do carrinho */
+#carrinho {
+    background-color: #b624241c;
+    border: 1px solid #fd2929;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    white-space: pre-line; /* para respeitar \n */
+}
+
+/* Botão de finalizar */
+button.finalizar {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+button.finalizar:hover {
+    background-color: #5c4033;
+}
+
+/* Banner estilizado */
+.banner {
+    background-color: #962929; /* Marrom café */
+    padding: 20px;
+    text-align: center;
+    color: #F5F5DC; /* Bege claro para o texto */
+}
+
+/* Ajuste da logo */
+.banner .logo {
+    width: 100px; /* Ajuste conforme o tamanho que quiser */
+    display: block;
+    margin: 0 auto 10px; /* Centraliza e dá espaço embaixo */
+}
+
+/* Estilo do título */
+.banner h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    margin: 0;
+    color: #fff4d7;
+}
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+   
+  select, input {
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .auth-subtitle {
+    text-align: center;
+  }
